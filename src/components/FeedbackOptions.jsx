@@ -1,10 +1,12 @@
+import { Button } from './FeedbackOptions.styles';
+
 function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <div>
       {options.map(name => (
-        <button type="button" key={name} name={name} onClick={onLeaveFeedback}>
+        <Button type="button" key={name} name={name} onClick={onLeaveFeedback}>
           {name.toUpperCase()}
-        </button>
+        </Button>
       ))}
     </div>
   );

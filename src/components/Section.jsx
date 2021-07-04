@@ -1,10 +1,12 @@
+import { Thumb } from './Section.styles';
+
 function Section(props) {
   const { title, children } = props;
   return (
-    <section>
+    <Thumb>
       <p>{title}</p>
       {children}
-    </section>
+    </Thumb>
   );
 }
 
