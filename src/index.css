@@ -45,3 +45,13 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+#root {
+  display: flex;
+}
+
+.container {
+  margin: auto auto;
+  border: 1px dashed black;
+  padding: 5px;
+}

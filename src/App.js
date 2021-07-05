@@ -39,7 +39,7 @@ export default class App extends Component {
     const { good, neutral, bad } = this.state;
     const btnNames = Object.keys(this.state);
     return (
-      <div>
+      <div className="container">
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={btnNames}
